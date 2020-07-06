@@ -1,0 +1,61 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "국립박물관문화재단클래식B";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/국립박물관문화재단클래식B.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "InfinitySans-RegularA1";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-RegularA1.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body, html {
+  font-family: "InfinitySans-RegularA1";
+  min-height: 100vh;
+  background: #a4f8f9;
+  background: linear-gradient(0deg, #a4f8f9 0%, #fdbb2d 100%);
+}
+
+h1 {
+  font-family: "국립박물관문화재단클래식B";
+  font-size: 3em;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  margin: 0 auto;
+}
+
+td {
+  background-color: #0c0e0d;
+  width: 100px;
+  height: 9vw;
+  text-align: center;
+  border: 1px solid #2e2828;
+  font-size: 1.5vw;
+  color: white;
+}
+
+#center-cell {
+  font-size: 1.5em;
+}
+
+@media only screen and (min-width: 1000px) {
+  .container {
+    width: 60%;
+  }
+
+  td {
+    height: 6vw;
+    font-size: 1em;
+  }
+}
+
+/*# sourceMappingURL=mandal-art.css.map */
